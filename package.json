@@ -1,8 +1,11 @@
 {
   "name": "hast-util-select",
-  "version": "4.0.1",
+  "version": "4.0.1-lineaje-01",
   "description": "hast utility for `querySelector`, `querySelectorAll`, and `matches`",
   "license": "MIT",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+  ],
   "keywords": [
     "unist",
     "hast",
@@ -18,16 +21,16 @@
     "match",
     "matches"
   ],
-  "repository": "syntax-tree/hast-util-select",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/hast-util-select"
+  },
   "bugs": "https://github.com/syntax-tree/hast-util-select/issues",
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/unified"
   },
   "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
-  "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
-  ],
   "dependencies": {
     "bcp-47-match": "^1.0.0",
     "comma-separated-tokens": "^1.0.0",
