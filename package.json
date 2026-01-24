@@ -1,8 +1,15 @@
 {
   "name": "hast-util-select",
-  "version": "3.0.1",
+  "version": "3.0.1-lineaje-01",
   "description": "`querySelector`, `querySelectorAll`, and `matches` in hast",
   "license": "MIT",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "keywords": [
     "hast",
     "css",
@@ -13,12 +20,12 @@
     "match",
     "matches"
   ],
-  "repository": "syntax-tree/hast-util-select",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/hast-util-select"
+  },
   "bugs": "https://github.com/syntax-tree/hast-util-select/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
-  "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
-  ],
   "dependencies": {
     "bcp-47-match": "^1.0.0",
     "comma-separated-tokens": "^1.0.2",
